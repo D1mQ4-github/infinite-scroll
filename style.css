@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.blog-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 16px;
+    max-width: calc(50% - 10px);
+    width: 100%;
+    border: 1px solid red;
+    margin: 0 20px 20px 0;
+}
+
+.article:nth-child(2n) {
+    margin-right: 0;
+}
+
+.article-footer {
+    margin-top: auto;
+}
